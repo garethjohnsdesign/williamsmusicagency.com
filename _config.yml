@@ -1,0 +1,69 @@
+---
+title: Williams Music Agency
+timezone: UTC
+collections:
+  projects:
+    title: Projects
+    output: true
+  representation:
+    title: Representation
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/journal/:title/"
+- scope:
+    path: ''
+    type: projects
+  values:
+    layout: project
+url: http://williamsmusicagency.com
+description: An independent full service music consultancy based in London. Providing bespoke music solutions for advertising, film, television, games, brand identity, digital and interactive media.
+permalink: pretty
+exclude:
+- Gemfile
+- Gemfile.lock
+- bower.json
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- bower_components
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+colophon: http://garethjohnsdesign.com
+company: Williams Music Agency
+email: info@williamsmusicagency.com
+google_site_verification:
+analytics:
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%d %B %Y"
+future: true
+social:
+  facebook: https://www.facebook.com/
+  instagram: https://www.instagram.com/
+  twitter: https://www.twitter.com/
+  soundcloud: https://soundcloud.com/
+  youtube: https://youtube.com/
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false
