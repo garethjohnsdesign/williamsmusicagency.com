@@ -1,9 +1,5 @@
 source 'https://rubygems.org'
-gem 'jekyll', '< 3.5'
-gem 'jekyll-sitemap'
-gem 'jekyll-feed'
-gem 'jekyll-redirect-from'
-gem 'jekyll-seo-tag'
-gem 'jekyll-default-layout'
-gem 'jekyll-mentions'
-gem "rb-fsevent", "~> 0.9.0"
+gem 'jekyll', '3.4.3'
+gem 'jekyll-seo-tag', '2.2.3'
+gem 'jekyll-sitemap', '1.0.0'
+gem 'jekyll-feed', '0.9.2'
