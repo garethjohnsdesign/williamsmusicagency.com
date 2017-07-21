@@ -69,12 +69,6 @@
 		"oAP": "\/_includes\/head.html",
 		"oF": 0
 		},
-	"\/_includes\/images-excerpt.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/images-excerpt.html",
-		"oF": 0
-		},
 	"\/_includes\/navigation.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -99,22 +93,16 @@
 		"oAP": "\/_includes\/scripts.html",
 		"oF": 0
 		},
-	"\/_includes\/text-excerpt.html": {
+	"\/_layouts\/about.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_includes\/text-excerpt.html",
+		"oAP": "\/_layouts\/about.html",
 		"oF": 0
 		},
 	"\/_layouts\/compress.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/compress.html",
-		"oF": 0
-		},
-	"\/_layouts\/contact.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/contact.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
@@ -129,46 +117,16 @@
 		"oAP": "\/_layouts\/home.html",
 		"oF": 0
 		},
-	"\/_layouts\/images.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/images.html",
-		"oF": 0
-		},
-	"\/_layouts\/journal.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/journal.html",
-		"oF": 0
-		},
 	"\/_layouts\/missing.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/missing.html",
 		"oF": 0
 		},
-	"\/_layouts\/music.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/music.html",
-		"oF": 0
-		},
 	"\/_layouts\/page.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/page.html",
-		"oF": 0
-		},
-	"\/_layouts\/production.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/production.html",
-		"oF": 0
-		},
-	"\/_layouts\/profile.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/profile.html",
 		"oF": 0
 		},
 	"\/_layouts\/project.html": {
@@ -193,12 +151,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/representation.html",
-		"oF": 0
-		},
-	"\/_layouts\/scoring-film.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/scoring-film.html",
 		"oF": 0
 		},
 	"\/_posts\/2016-09-22-ridiculus-sem.markdown": {
@@ -265,12 +217,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/atonement.markdown",
-		"oF": 0
-		},
-	"\/_projects\/baby.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_projects\/baby.markdown",
 		"oF": 0
 		},
 	"\/_projects\/big-miracle.markdown": {
@@ -519,15 +465,11 @@
 		"oAP": "\/_site\/404.html",
 		"oF": 0
 		},
-	"\/_site\/assets\/css\/app.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"\/_site\/about\/index.html": {
+		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/assets\/css\/app-min.css",
-		"oF": 0,
-		"oS": 3
+		"oAP": "\/_site\/about\/index.html",
+		"oF": 0
 		},
 	"\/_site\/assets\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
@@ -625,16 +567,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/_site\/assets\/fonts\/acuminpro-regular.woff": {
+	"\/_site\/assets\/fonts\/gt-america-compressed-bold.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/assets\/fonts\/acuminpro-regular.woff",
+		"oAP": "\/_site\/assets\/fonts\/gt-america-compressed-bold.woff",
 		"oF": 0
 		},
-	"\/_site\/assets\/fonts\/acuminpro-regular.woff2": {
+	"\/_site\/assets\/fonts\/gt-america-compressed-bold.woff2": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/assets\/fonts\/acuminpro-regular.woff2",
+		"oAP": "\/_site\/assets\/fonts\/gt-america-compressed-bold.woff2",
 		"oF": 0
 		},
 	"\/_site\/assets\/fonts\/gt-america-light.woff": {
@@ -803,12 +745,6 @@
 		"oAP": "\/_site\/journal\/fermentum-ipsum-amet\/index.html",
 		"oF": 0
 		},
-	"\/_site\/journal\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/journal\/index.html",
-		"oF": 0
-		},
 	"\/_site\/journal\/malesuada-tellus-purus-fringilla\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -845,12 +781,6 @@
 		"oAP": "\/_site\/privacy\/index.html",
 		"oF": 0
 		},
-	"\/_site\/profile\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/profile\/index.html",
-		"oF": 0
-		},
 	"\/_site\/projects\/a-night-in-the-woods\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -879,12 +809,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/atonement\/index.html",
-		"oF": 0
-		},
-	"\/_site\/projects\/baby\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/projects\/baby\/index.html",
 		"oF": 0
 		},
 	"\/_site\/projects\/big-miracle\/index.html": {
@@ -1131,6 +1055,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/projects\/you-are-me\/index.html",
+		"oF": 0
+		},
+	"\/_site\/representation\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/representation\/index.html",
 		"oF": 0
 		},
 	"\/_site\/robots.txt": {
@@ -2191,6 +2121,24 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/about.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/about.md",
+		"oF": 1,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/assets\/css\/app.css": {
 		"aP": 0,
 		"bl": 0,
@@ -2297,16 +2245,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/acuminpro-regular.woff": {
+	"\/assets\/fonts\/gt-america-compressed-bold.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/acuminpro-regular.woff",
+		"oAP": "\/assets\/fonts\/gt-america-compressed-bold.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/acuminpro-regular.woff2": {
+	"\/assets\/fonts\/gt-america-compressed-bold.woff2": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/acuminpro-regular.woff2",
+		"oAP": "\/assets\/fonts\/gt-america-compressed-bold.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/gt-america-light.woff": {
@@ -9488,24 +9436,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/journal.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/journal.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/LICENSE.md": {
 		"cS": 0,
 		"eF": 1,
@@ -9550,24 +9480,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/profile.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/profile.md",
-		"oF": 1,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/projects.md": {
 		"cS": 0,
 		"eF": 1,
@@ -9596,6 +9508,24 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/README.md",
+		"oF": 1,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/representation.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/representation.md",
 		"oF": 1,
 		"oFM": 9,
 		"oS": 0,

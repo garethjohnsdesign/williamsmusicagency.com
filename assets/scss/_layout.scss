@@ -110,7 +110,7 @@ img {
   position:relative;
   &:hover .excerpt__image:after {
     transition: $primary-transition;
-    background: $color--black;
+    background: $color--highlight;
     @include opacity(0.8);
     @include breakpoint(small only) {
  @include opacity(0.0);
@@ -136,13 +136,13 @@ img {
   left: 0rem;
   width: 100%;
   height: 100%;
-  background:$color--black;
+  background:$color--highlight;
   @include opacity(0);
 }
 
 
 .page {
-  padding-top: 1rem;
+  padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
@@ -172,17 +172,56 @@ i, cite, em, var, address, dfn {
 
 .navigation {
   z-index: 2;
+  padding: 3rem 0rem;
+  border-bottom: $color--highlight solid 1px;
+  font-family: 'Galano Grotesque Bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .navigation--mobile {
   z-index: 2;
 }
 
-// 4. Index
+.top-bar-title {
+/*
+  font-family: $font-family-bold;
+  font-size: 1.3rem;
+  letter-spacing: -1px;
+*/
+//   text-transform: uppercase;
+}
+
+.navigation__title {
+  font-family: 'Galano Grotesque Bold', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1
+}
+
+// 4. Home
 // ------
 
-.index__about {
-  @include margin-three;
+.home {
+  font-size: 2rem;
+  line-height: 1.3;
+  p {
+  line-height: 1.3; 
+  }
+}
+
+.home__about {
+  @include margin-one;
+}
+
+.home h1 {
+    font-family: 'Galano Grotesque Bold', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.4
+  
 }
 
 
@@ -209,7 +248,7 @@ i, cite, em, var, address, dfn {
 // ----------
 
 .project {
-  @include margin-three;
+//   @include margin-three;
 }
 
 .project__hero-image {
@@ -217,18 +256,7 @@ i, cite, em, var, address, dfn {
   background-size: cover;
   background-position: center center;
   height: 80vh;
-  @include margin-three;
   color: $color--white;
-  h1 {
-  font-size: 48px;
-  text-transform: none;
-  }
-  h1:after {
-  content: "";
-  }
-  h1:before {
-  content: "";
-  }
 }
 
 .project__hero-image__overlay {
@@ -251,7 +279,8 @@ i, cite, em, var, address, dfn {
 // ---------
 
 .footer {
-  padding-bottom: 2rem;
+  padding: 4rem 0rem;
+  border-top: $color--highlight solid 1px;
 }
 
 .footer .menu .menu-text {

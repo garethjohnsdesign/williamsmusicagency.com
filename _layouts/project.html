@@ -11,16 +11,12 @@ layout: default
       
       
       <ul class="vertical menu">
-        {% if page.artist %}
-        <li>{{ page.artist }}</li>
-        {% endif %}
-        {% if page.director %}
-        <li>{{ page.director }}</li>
-        {% endif %}
-        {% if page.credit %}
-        <li class="excerpt__text__credit">{{ page.credit }}</li>
-        {% endif %}
-        <li>{% if page.record-label %}{{ page.record-label }},{% endif %} {{ page.date | date: "%Y" }}</li>
+        <li>{{ page.role }}</li>
+        <li>Client: {{ page.client }}</li>
+        <li>Director: {{ page.director }}</li>
+        <li>Year: {{ page.date | date: "%Y" }}</li>
+        <li>With: {{ page.with }}</li>
+        <li>IMDB</li>
       </ul>
       
     </div>

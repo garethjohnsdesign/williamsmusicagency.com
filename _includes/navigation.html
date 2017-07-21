@@ -1,8 +1,15 @@
 {% for entry in site.data.navigation %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
 
 <!-- Navigation -->
-<div class="navigation row small-collapse expanded align-middle align-justify">
+<div class="navigation">
   
+  <div class="row align-center">
+  <div class="columns text-center navigation__title">
+      <a href="/">Williams Music</a>
+  </div>
+  </div>
+  
+  <div class="row align-center">
   <div class="shrink columns top-bar-menu show-for-medium">
     <ul class="dropdown menu" data-dropdown-menu>
           {% for entry in site.data.navigation %}
@@ -28,14 +35,12 @@
         </ul>
   </div>
   
-  <div class="shrink columns top-bar-title navigation--mobile">
-      <a href="/">Williams Music Agency</a>
-  </div>
-  
   <div class="shrink columns show-for-small-only navigation--mobile">
     <button class="hamburger hamburger--collapse" id="toggle" data-toggle="overlay toggle" data-toggler=".is-active" type="button">
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
   </div>
+  </div>
+  
 </div>
 <!-- End Navigation -->

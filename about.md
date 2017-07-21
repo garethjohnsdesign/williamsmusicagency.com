@@ -1,6 +1,6 @@
 ---
-title: Profile
-layout: profile
+title: About
+layout: about
 ---
 
 Vicki Williams has used her knowledge of music to help shape over forty films so far. She began her career at Working Title Films where over the course of nine years she was the music coordinator on Smokin' Aces, Atonement, Hot Fuzz, Definitely Maybe, Elizabeth: The Golden Age, State of Play, The Boat that Rocked, and Green Zone.
