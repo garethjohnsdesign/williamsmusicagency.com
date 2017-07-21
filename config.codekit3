@@ -725,22 +725,10 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/_site\/feed.xml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/feed.xml",
-		"oF": 0
-		},
 	"\/_site\/humans.txt": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/humans.txt",
-		"oF": 0
-		},
-	"\/_site\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/index.html",
 		"oF": 0
 		},
 	"\/_site\/journal\/fermentum-ipsum-amet\/index.html": {
