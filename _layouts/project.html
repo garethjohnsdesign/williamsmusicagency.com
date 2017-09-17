@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<!-- Hero Image -->
+<div class="project__hero-image" style="background-image: url({{page.image}})">
+  <div class="project__hero-image__overlay">
+  <div class="row align-middle align-center" style="height: 100%;">
+    <div class="small-10 columns text-center" data-aos="fade-in">
+      <h1>{{page.title}}</h1>
+      
+      
+      <ul class="vertical menu">
+        <li>{{ page.role }}</li>
+        <li>Client: {{ page.client }}</li>
+        <li>Director: {{ page.director }}</li>
+        <li>Year: {{ page.date | date: "%Y" }}</li>
+        <li>With: {{ page.with }}</li>
+        <li>IMDB</li>
+      </ul>
+      
+    </div>
+  </div>
+  </div>
+</div>
+<!-- End Hero Image -->
+
+<!-- Content -->
+<div class="row align-center">
+  <div class="small-12 medium-8 columns">
+    {{content}}
+  </div>
+</div>
+<!-- End Content -->

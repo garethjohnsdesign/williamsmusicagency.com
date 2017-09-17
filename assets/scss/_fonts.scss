@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'GT America Light';
+  src: 
+  url('../fonts/gt-america-light.woff2') format('woff2'), 
+  url('../fonts/gt-america-light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT America Compressed Bold';
+  src: 
+  url('../fonts/gt-america-compressed-bold.woff2') format('woff2'), 
+  url('../fonts/gt-america-compressed-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-family-bold: 'GT America Bold', Helvetica, Roboto, Arial, sans-serif;

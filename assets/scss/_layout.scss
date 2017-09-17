@@ -1,0 +1,288 @@
+//  Table of Contents:
+//
+//   1. Mixins
+//   2. Global
+//   3. Typography
+//   4. Page
+//   5. Navigation
+//   6. Index
+//   7. Excerpt
+//   8. Projects
+//   9. Project
+//   10. Profile
+//   11. Services
+//   12. Contact
+//   13. Footer
+
+// 1. Mixins
+// ---------
+
+@mixin margin-one {
+  margin-bottom: 1rem;
+}
+
+@mixin margin-two {
+  margin-bottom: 2rem;
+}
+
+@mixin margin-three {
+  margin-bottom: 3rem;
+}
+
+@mixin links ($link, $hover) {
+  a {
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie);
+}
+
+// 2. Global
+// ---------
+
+body {
+  cursor: default;
+}
+
+svg {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: $color--black;
+  color: $color--white;
+}
+
+:focus {
+  outline: 0;
+}
+
+[data-sticky] {
+  width: 100%;
+}
+
+.wrapper {
+  padding: 2rem 2rem 0rem 2rem;
+}
+
+.excerpt {
+  @include margin-two;
+}
+
+.excerpt__image {
+  @include margin-one;
+}
+
+.excerpt__image__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: $color--white;
+  @include opacity(0);
+  z-index: 3;
+  transition: $primary-transition;
+  padding: 1rem;
+}
+
+.excerpt__text__chighlightit {
+  a:after {
+    content: "]";
+  }
+  a:before {
+    content: "[";
+  }
+}
+
+.excerpt__image__container {
+  position:relative;
+  &:hover .excerpt__image:after {
+    transition: $primary-transition;
+    background: $color--highlight;
+    @include opacity(0.8);
+    @include breakpoint(small only) {
+ @include opacity(0.0);
+  }
+  }
+  &:hover .excerpt__image img {
+    filter: grayscale(1);
+  }
+  &:hover .excerpt__image__text {
+    @include opacity(1);
+  }
+}
+
+.excerpt__image img {
+  transition: $primary-transition;
+}
+
+.excerpt__image:after {
+  transition: $primary-transition;
+  content:'\A';
+  position:absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 100%;
+  height: 100%;
+  background:$color--highlight;
+  @include opacity(0);
+}
+
+
+.page {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+// 3. Typography
+// -------------
+
+a {
+  transition: $primary-transition;
+}
+
+a:hover {
+  color: $color--highlight;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+
+// 4. Navigation
+// ------
+
+.navigation {
+  z-index: 2;
+  padding: 3rem 0rem;
+  border-bottom: $color--highlight solid 1px;
+  font-family: 'Galano Grotesque Bold', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navigation--mobile {
+  z-index: 2;
+}
+
+.top-bar-title {
+/*
+  font-family: $font-family-bold;
+  font-size: 1.3rem;
+  letter-spacing: -1px;
+*/
+//   text-transform: uppercase;
+}
+
+.navigation__title {
+  font-family: 'Galano Grotesque Bold', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1
+}
+
+// 4. Home
+// ------
+
+.home {
+  font-size: 2rem;
+  line-height: 1.3;
+  p {
+  line-height: 1.3; 
+  }
+}
+
+.home__about {
+  @include margin-one;
+}
+
+.home h1 {
+    font-family: 'Galano Grotesque Bold', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.4
+  
+}
+
+
+// 4. About
+// --------
+
+.about__image {
+  @include margin-three;
+}
+
+.about__text {
+  @include margin-three;
+}
+
+// 4. Contact
+// --------
+
+.contact__meta {
+  @include margin-three;
+}
+
+
+// 4. Project
+// ----------
+
+.project {
+//   @include margin-three;
+}
+
+.project__hero-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+  color: $color--white;
+}
+
+.project__hero-image__overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+// 4. Journal
+// ---------
+
+.journal__post__date {
+ color: $color--highlight;
+ margin-bottom: 1rem;
+}
+
+
+
+// 4. Footer
+// ---------
+
+.footer {
+  padding: 4rem 0rem;
+  border-top: $color--highlight solid 1px;
+}
+
+.footer .menu .menu-text {
+  font-weight: normal;
+}
