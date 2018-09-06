@@ -1,0 +1,23 @@
+Development
+
+http://williamsmusicagency.garethjohnsdesign.com/
+
+{
+  "host": "205.186.139.120",
+  "port": 21,
+  "username": "garethjohnsabc",
+  "password": "kugAcenAWR4xur3pE#aS",
+  "path": "/williamsmusicagency.garethjohnsdesign.com/",
+  "secure": false
+}
+
+Live
+
+{
+  "host": "205.186.139.120",
+  "port": 21,
+  "username": "williamsmusic",
+  "password": "kugAcenAWR4xur3pE#aS",
+  "path": "/httpdocs/",
+  "secure": false
+}
